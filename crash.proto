@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com;
+message A
+{
+string str = 1;
+}
+message B
+{
+A a = 307001;
+string json_body_req = 308000;
+}
